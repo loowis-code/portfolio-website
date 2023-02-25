@@ -1,5 +1,4 @@
 import Grid from '@mui/material/Unstable_Grid2';
-import Item from '@mui/material/Unstable_Grid2';
 import Typography from '@mui/material/Typography';
 import { Avatar } from '@mui/material';
 import styles from '@/components/css-modules/aboutme.module.css';
@@ -20,7 +19,7 @@ export default function AboutMe () {
                     for colleagues to use to enhance their knowledge and skills and to develop and test new software solutions before deploying to client systems.
                 </Typography>
             </Grid>
-            <Grid xs={4}>
+            <Grid xs={4} display="flex" justifyContent="right">
                 <Avatar alt='Lewis Inches' src='/picture_of_me.jpg' variant="rounded" sx={{ width: 250, height: 250 }}/>
             </Grid>
         </Grid>
