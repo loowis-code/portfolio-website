@@ -12,10 +12,9 @@ export default function Layout({ children }: LayoutProps) {
             </Head>
 
             <Header />
-            
-            <div>
-                {children}
-            </div>
+
+            {children}
+
         </div>
     )
 }
