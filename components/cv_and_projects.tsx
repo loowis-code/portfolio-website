@@ -10,7 +10,7 @@ export default function CVAndProjects () {
                 <CV />
             </Grid>
 
-            <Grid xs={6} display="flex" justifyContent="right">
+            <Grid xs={6}>
                 <Projects />
             </Grid>
         </Grid>
