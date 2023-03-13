@@ -1,3 +1,18 @@
-:root {
-    padding: 0 25%;
+@media only screen and (min-width: 450px) {
+    :root {
+        padding: 0 10vw;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    :root {
+        padding: 0 20vw;
+    }
+}
+
+
+@media only screen and (min-width: 2560px) {
+    :root {
+        padding: 0 30vw;
+    }
 }
