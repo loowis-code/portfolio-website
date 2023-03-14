@@ -1,0 +1,9 @@
+.main {
+    padding: 1vh 25vw;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}

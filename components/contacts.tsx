@@ -5,12 +5,14 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Link from '@mui/material/Link';
 import Grid from '@mui/material/Unstable_Grid2';
+import styles from '@/components/css-modules/contacts.module.css';
+
 export default function Contacts () {
 
     return (
-        <div>
+        <div className={styles.main}>
             <Typography variant="h5">Social Profiles</Typography>
-            <Grid container spacing={2}>
+            <Grid className={styles.links} container spacing={2}>
                 <Grid>
                     <Link href="https://www.linkedin.com/in/lewisinches" underline="none" color="inherit"><LinkedInIcon /></Link>
                 </Grid>

@@ -1,3 +1,7 @@
 .aboutme {
-    padding: 3% 0
+    padding: 5vh 25vw;
+}
+
+.avatar {
+    border: 0.25rem dashed #ff7202;
 }
