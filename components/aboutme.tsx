@@ -9,7 +9,7 @@ export default function AboutMe () {
                         About Me
                     </Typography>
                     <Typography className={styles.text} variant="body1">
-                        Hi, I'm Lewis Inches, a software engineer based in Edinburgh. I am currently working at Skyscanner after graduating in May 2022 from Heriot-Watt University.
+                        Hi, I&apos;m Lewis Inches, a software engineer based in Edinburgh. I am currently working at Skyscanner after graduating in May 2022 from Heriot-Watt University.
                     </Typography>
         </div>
     );
