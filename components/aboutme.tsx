@@ -5,9 +5,9 @@ export default function AboutMe () {
 
     return (
         <div className={styles.aboutme}>
-                    <Typography className={styles.header} variant="h4">
+                    <h1 className={styles.header}>
                         About Me
-                    </Typography>
+                    </h1>
                     <Typography className={styles.text} variant="body1">
                         Hi, I&apos;m Lewis Inches, a software engineer based in Edinburgh. I am currently working at Skyscanner after graduating in May 2022 from Heriot-Watt University.
                     </Typography>
