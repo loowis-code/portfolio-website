@@ -2,6 +2,11 @@
     padding: 5vh 25vw;
 }
 
-.avatar {
-    border: 0.25rem dashed #ff7202;
+.header {
+    font-family: sono-medium;
 }
+
+.text {
+    font-family: sono-regular;
+}
+

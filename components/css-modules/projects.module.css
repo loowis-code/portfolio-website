@@ -1,8 +1,21 @@
 .main {
-    color: white;
-    padding-bottom: 0.75vh;
+    color: #354a54;
+    font-family: sono-regular;
 }
 
 .card {
-    background-color: #354a54;
+    background-color: #ffffff3f;
+}
+
+.linkButton {
+    margin-top: 1.5vh;
+}
+
+.header {
+    font-family: sono-medium;
+}
+
+.subheader {
+    font-family: sono-medium;
+    color: #354a54;
 }

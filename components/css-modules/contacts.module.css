@@ -3,6 +3,14 @@
     text-align: center;
 }
 
+.text {
+    font-family: sono-medium;
+}
+
+/* .text {
+    font-family: sono-regular;
+} */
+
 .links {
     display: flex;
     justify-content: center;

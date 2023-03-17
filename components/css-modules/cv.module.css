@@ -1,7 +1,17 @@
 .main {
-    color: white;
+    color: #354a54;
+    font-family: sono-regular;
 }
 
 .card {
-    background-color: #354a54;
+    background-color: #ffffff3f;
+}
+
+.header {
+    font-family: sono-medium;
+}
+
+.subheader {
+    font-family: sono-medium;
+    color: #354a54;
 }
