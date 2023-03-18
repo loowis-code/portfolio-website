@@ -4,6 +4,8 @@
 
 .header {
     font-family: sono-medium;
+    text-decoration: underline #ff7202;
+    text-decoration-thickness: 2px;
 }
 
 .text {

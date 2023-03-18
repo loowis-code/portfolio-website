@@ -1,6 +1,14 @@
 .main {
-    font-family: sono-medium;
     padding: 0.5vh;
-    margin: 0;
+}
+
+.header {
+    font-family: sono-medium;
+    border-top: 2px solid #ff7202;
+}
+
+.subheader {
+    font-family: sono-light;
+    border-bottom: 2px solid #ff7202;
 }
 
