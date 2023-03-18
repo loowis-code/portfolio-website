@@ -3,15 +3,10 @@
     font-family: sono-regular;
 }
 
-.card {
-    background-color: #ffffff3f;
-}
-
 .header {
     font-family: sono-medium;
 }
 
-.subheader {
-    font-family: sono-medium;
-    color: #354a54;
+.card {
+    background-color: #ffffff3f;
 }
