@@ -11,7 +11,7 @@ export default function Contacts () {
 
     return (
         <div className={styles.main}>
-            <Typography className={styles.text} variant="h5">Social Profiles</Typography>
+            <h2 className={styles.text}>Social Profiles</h2>
             <Grid className={styles.links} container spacing={2}>
                 <Grid>
                     <Link href="https://www.linkedin.com/in/lewisinches" underline="none" color="inherit"><LinkedInIcon /></Link>

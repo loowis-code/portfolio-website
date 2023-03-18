@@ -7,22 +7,22 @@ export default function CV () {
 
     return (
         <div>
-            <Typography  className={styles.header} variant="h4">CV</Typography>
+            <h2 className={styles.header}>CV</h2>
 
 
             <Card className={styles.card} sx={{ my: 1}}>
                 <CardContent>
-                    <Typography className={styles.subheader} variant="h5">Education</Typography>
-                    <Typography className={styles.main} variant="body1">
+                    <h3 className={styles.subheader}>Education</h3>
+                    <p className={styles.main}>
                     I studied at Heriot-Watt University in Edinburgh from 2018 to 2022 and achieved a first class bachelors degree in Computer Science.
-                    </Typography>
+                    </p>
                 </CardContent>
             </Card>
 
             <Card className={styles.card} sx={{ my: 1}}>
                 <CardContent>
-                    <Typography className={styles.subheader} variant="h5">Experience</Typography>
-                    <Typography className={styles.main} variant="body1">
+                    <h3 className={styles.subheader}>Experience</h3>
+                    <p className={styles.main}>
                     During the summer of 2020 I took part in a summer learning programme with the NCSC about Cyber Security. 
                     <br></br>
                     <br></br>
@@ -36,7 +36,7 @@ export default function CV () {
                     Since September 2022 I have been working as a Software Engineer at Skyscanner as part of the graduate program.
                     <br></br>
                     During this program I will be rotating through different teams within the company including Frontend, Backend, Mobile and Product.
-                    </Typography>
+                    </p>
                 </CardContent>
             </Card>
 

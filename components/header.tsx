@@ -1,5 +1,4 @@
 import Grid from '@mui/material/Unstable_Grid2';
-import Typography from '@mui/material/Typography';
 import styles from '@/components/css-modules/header.module.css';
 
 export default function Header () {
@@ -7,14 +6,14 @@ export default function Header () {
     return (
         <Grid>
             <Grid display="flex" justifyContent="center" alignItems="center">
-                <Typography className={styles.main} variant="h2" >
+                <h1 className={styles.main}>
                 Lewis Inches
-                </Typography>
+                </h1>
             </Grid>
             <Grid display="flex" justifyContent="center" alignItems="center">
-                <Typography className={styles.main} variant="h4">
+                <h2 className={styles.main}>
                 Software Engineer
-                </Typography>
+                </h2>
             </Grid>
         </Grid>
     );

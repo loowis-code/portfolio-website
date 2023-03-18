@@ -1,4 +1,3 @@
-import Typography from '@mui/material/Typography';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -10,7 +9,7 @@ export default function Projects () {
 
     return (
         <div>
-            <Typography  className={styles.header} variant="h4">Projects</Typography>
+            <h2 className={styles.header}>Projects</h2>
 
             <Card className={styles.card} sx={{ my: 1}}>
                 <CardMedia
@@ -19,20 +18,20 @@ export default function Projects () {
                     title="photography website"
                 />
                 <CardContent>
-                    <Typography  className={styles.subheader} variant="h5">Photography Website</Typography>
-                    <Typography className={styles.main} variant="body1">
+                    <h3 className={styles.subheader}>Photography Website</h3>
+                    <p className={styles.main}>
                     A website used to display my photography, built using Next.js and FaunaDB.
-                    </Typography>
+                    </p>
                     <Button className={styles.linkButton} variant='outlined' startIcon={<LinkIcon />}href="https://www.lewisinches.pictures">Link to Project</Button>
                 </CardContent>
             </Card>
 
             <Card className={styles.card} sx={{ my: 1}}>
                 <CardContent>
-                    <Typography  className={styles.subheader} variant="h5">Portfolio Website</Typography>
-                    <Typography className={styles.main} variant="body1">
+                    <h3 className={styles.subheader}>Portfolio Website</h3>
+                    <p className={styles.main}>
                     A personal portfolio website built using Next.js with TypeScript.
-                    </Typography>
+                    </p>
                 </CardContent>
             </Card>
 
