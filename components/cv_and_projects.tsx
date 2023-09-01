@@ -7,11 +7,11 @@ export default function CVAndProjects () {
 
     return (
         <Grid className={styles.main} container spacing={2}>
-            <Grid xs={6}>
+            <Grid xs={12} lg={6}>
                 <CV />
             </Grid>
 
-            <Grid xs={6}>
+            <Grid xs={12} lg={6}>
                 <Projects />
             </Grid>
         </Grid>
