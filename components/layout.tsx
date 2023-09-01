@@ -7,7 +7,7 @@ type LayoutProps = React.PropsWithChildren<{}>;
 export default function Layout({ children }: LayoutProps) {
     return (
         <div className={styles.main}>
-            <div className={styles.wrapper}>
+
             <Head>
             <title> Lewis Inches</title>
             <meta name="description" content="Personal portfolio website of a software engineer based in Edinburgh." />
@@ -16,7 +16,7 @@ export default function Layout({ children }: LayoutProps) {
             <Header />
 
             {children}
-            </div>
+
         </div>
     )
 }

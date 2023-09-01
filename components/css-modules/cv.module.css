@@ -1,14 +1,13 @@
 .main {
-    color: #354a54;
     font-family: sono-regular;
 }
 
 .header {
     font-family: sono-medium;
-    text-decoration: underline #ff7202;
+    text-decoration: underline #0E5E6F;
     text-decoration-thickness: 2px;
 }
 
 .card {
-    background-color: #ffffff3f;
+    background-color: #FFEFD6;
 }

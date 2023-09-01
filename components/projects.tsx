@@ -18,14 +18,14 @@ export default function Projects () {
                 </div>
             </div>
 
-            <div className={`card mb-3 shadow-lg ${styles.card}`}>
+            {/* <div className={`card mb-3 shadow-lg ${styles.card}`}>
                 <div className="card-body">
                     <h3 className={styles.header}>Portfolio Website</h3>
                     <p className="card-text">
                     A personal portfolio website built using Next.js with TypeScript.
                     </p>
                 </div>
-            </div>
+            </div> */}
 
         </div>
     );

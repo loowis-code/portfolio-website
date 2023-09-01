@@ -16,13 +16,13 @@ export default function Contacts () {
                     <Link href="https://www.linkedin.com/in/lewisinches" underline="none" color="inherit"><LinkedInIcon /></Link>
                 </Grid>
                 <Grid>
-                    <Link href="https://www.linkedin.com/in/lewisinches" underline="none" color="inherit"><TwitterIcon /></Link>
+                    <Link href="https://twitter.com/LewisI224" underline="none" color="inherit"><TwitterIcon /></Link>
                 </Grid>
                 <Grid>
-                    <Link href="https://www.linkedin.com/in/lewisinches" underline="none" color="inherit"><InstagramIcon /></Link>
+                    <Link href="https://www.instagram.com/lewisi.photos/" underline="none" color="inherit"><InstagramIcon /></Link>
                 </Grid>
                 <Grid>
-                    <Link href="https://www.linkedin.com/in/lewisinches" underline="none" color="inherit"><GitHubIcon /></Link>
+                    <Link href="https://github.com/LewisI224" underline="none" color="inherit"><GitHubIcon /></Link>
                 </Grid>
             </Grid>
             
