@@ -1,11 +1,9 @@
 .aboutme {
-    padding: 1vh 25vw;
+    padding: 1vh 33vw;
 }
 
 .header {
     font-family: sono-medium;
-    text-decoration: underline #0E5E6F;
-    text-decoration-thickness: 2px;
 }
 
 .text {
