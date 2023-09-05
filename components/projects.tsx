@@ -14,7 +14,8 @@ export default function Projects () {
                     <p className="card-text">
                     A website used to display my photography, built using Next.js and FaunaDB.
                     </p>
-                    <a href="https://www.lewisinches.pictures" className="btn btn-primary">Go to Project</a>
+                    <a className={styles.link} href="https://www.lewisinches.pictures">Go to Project</a>
+                    <a className={styles.link} href="https://github.com/LewisI224/photography-website">Go to Code</a>
                 </div>
             </div>
 
