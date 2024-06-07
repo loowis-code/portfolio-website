@@ -6,11 +6,11 @@ export default function Introduction () {
     return (
         <div className={styles.jumbotron}>
             <div>
-                <h1>Hi👋My name is Lewis</h1>
-                <h2>I&apos;m a software engineer from Edinburgh</h2>
+                <h1 tabIndex={0}>Hi👋My name is Lewis</h1>
+                <h2 tabIndex={0}>I&apos;m a software engineer from Edinburgh</h2>
             </div>
 
-            <Image className={styles.image} src={'/picrew.jpg'} alt={'Lewis Inches'} width={200} height={200} />
+            <Image tabIndex={0} className={styles.image} src={'/picrew.jpg'} alt={'Lewis Inches'} width={200} height={200} />
  
         </div>
     );
