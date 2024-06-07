@@ -25,14 +25,13 @@
 
 .pages {
     display: flex;
-    padding-right: 1rem;
-    
 }
 
 .page {
-    padding: 1rem;
-    margin: auto;
-    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: auto 1rem;
+    border-radius: 5rem;
+    font-size: x-large;
 }
 
 .page:hover {
