@@ -1,0 +1,16 @@
+.jumbotron {
+    background-color: #64BAAA;
+    color: #2B008B;
+    margin: 5rem auto;
+    padding: 5rem;
+    width: fit-content;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: josefin-light-italic;
+}
+
+.image {
+    border-radius: 5rem;
+    margin-left: 5%;
+}

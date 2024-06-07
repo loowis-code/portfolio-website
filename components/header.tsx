@@ -1,20 +1,18 @@
-import Grid from '@mui/material/Unstable_Grid2';
 import styles from '@/components/css-modules/header.module.css';
 
 export default function Header () {
 
     return (
-        <div className={`container text-center ${styles.main}`}>
-            <div className='row'>
-
-                <h1 className={`container text-center ${styles.header}`}>Lewis Inches</h1>
-
-                
+        <div className={styles.header}>
+            <div className={styles.info}>
+                <h1 className={styles.name}>Lewis Inches</h1>
+                <h3 className={styles.title}>software engineer</h3>
             </div>
-            <div className='row'>
 
-                <h2 className={`container text-center ${styles.subheader}`}>Software Engineer</h2>
-                
+            <div className={styles.pages}>
+                <p className={styles.page}>about me</p>
+                <p className={styles.page}>projects</p>
+                <p className={styles.page}>contact</p>
             </div>
         </div>
     );

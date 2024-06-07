@@ -1,6 +1,9 @@
 .main {
-    background: #F2DEBA;
-    color: #0E5E6F;
-    min-height: 100vh;
-    width: 100vw;
+    background-color: #c4fcf0 ;
+    color: #2b008b ;
+    height: 100vh;
+    opacity: 0.8;
+    background-image:  radial-gradient(#2b008b 2px, transparent 2px), radial-gradient(#444cf7 2px, #c4fcf0 2px);
+    background-size: 80px 80px;
+    background-position: 0 0,40px 40px;
 }

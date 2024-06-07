@@ -1,10 +1,41 @@
 .header {
-    font-family: sono-medium;
+    background-color: #64baaa;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+    width: 100%;
+    text-wrap: nowrap;
 }
 
-.subheader {
-    font-family: sono-light;
+.info {
+    display: flex;
+    align-items: center;
 
 }
+.name {
+    font-family: josefin-bold;
+    padding-right: 1rem;
+    margin: auto;
+}
 
+.title {
+    font-family: josefin-light-italic;
+    margin: auto;
+}
 
+.pages {
+    display: flex;
+    padding-right: 1rem;
+    
+}
+
+.page {
+    padding: 1rem;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+.page:hover {
+    background-color: #2b008b;
+    color: #c4fcf0;
+}

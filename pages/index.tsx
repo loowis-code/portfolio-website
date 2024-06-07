@@ -1,14 +1,10 @@
 import Layout from '@/components/layout';
-import AboutMe from '@/components/aboutme';
-import CVAndProjects from '@/components/cv_and_projects';
-import Contacts from '@/components/contacts';
+import Introduction from '@/components/introduction';
 
 function Home() {
     return (
         <Layout>
-            <AboutMe />
-            <CVAndProjects />
-            <Contacts />
+            <Introduction/>
         </Layout>
     )
 }
