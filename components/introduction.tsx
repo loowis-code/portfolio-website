@@ -5,7 +5,7 @@ export default function Introduction () {
 
     return (
         <div className={styles.jumbotron}>
-            <div>
+            <div className={styles.text}>
                 <h1 tabIndex={0}>Hi👋My name is Lewis</h1>
                 <h2 tabIndex={0}>I&apos;m a software engineer from Edinburgh</h2>
             </div>

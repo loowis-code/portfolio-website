@@ -17,6 +17,7 @@
     align-items: center;
 
 }
+
 .name {
     font-family: josefin-bold;
     padding-right: 1rem;
@@ -43,4 +44,25 @@
 .page:hover {
     background-color: #fefedf;
     color: #00506c;
+}
+
+@media (max-width: 1280px) {
+    .header {
+        padding: 0.5rem;
+        justify-content: space-evenly;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .pages {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .page {
+        font-size: 1rem;
+        padding: 1rem 0.5rem;
+    }
 }
