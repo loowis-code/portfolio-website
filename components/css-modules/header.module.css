@@ -6,6 +6,9 @@
     padding: 2.5rem;
     width: 100%;
     text-wrap: nowrap;
+    position: sticky;
+    height: fit-content;
+    top: 0;
 }
 
 .info {
