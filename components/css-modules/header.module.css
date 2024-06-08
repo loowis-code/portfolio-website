@@ -1,14 +1,15 @@
 .header {
-    color: #2b008b ;
-    background-color: #64baaa;
+    color: #fefedf ;
+    background-color: #00506c;    
     display: flex;
     justify-content: space-between;
     padding: 2.5rem;
     width: 100%;
     text-wrap: nowrap;
     position: sticky;
-    height: fit-content;
     top: 0;
+    opacity: 1;
+    transition-duration: 0.5s;
 }
 
 .info {
@@ -32,13 +33,14 @@
 }
 
 .page {
-    padding: 0.5rem;
+    padding: 1rem;
     margin: auto 1rem;
-    border-radius: 5rem;
+    border-radius: 0.5rem;
     font-size: x-large;
+    transition-duration: 0.5s;
 }
 
 .page:hover {
-    background-color: #2b008b;
-    color: #c4fcf0;
+    background-color: #fefedf;
+    color: #00506c;
 }
