@@ -1,10 +1,72 @@
 .header {
-    font-family: sono-medium;
+    color: #fefedf ;
+    background-color: #00506c;    
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+    width: 100%;
+    max-height: 8rem;
+    text-wrap: nowrap;
+    position: sticky;
+    top: 0;
+    opacity: 1;
+    transition-duration: 0.5s;
 }
 
-.subheader {
-    font-family: sono-light;
+.info {
+    display: flex;
+    align-items: center;
 
 }
 
+.name {
+    font-family: josefin-bold;
+    padding-right: 1rem;
+    margin: auto;
+}
 
+.title {
+    font-family: josefin-light-italic;
+    margin: auto;
+}
+
+.pages {
+    display: flex;
+}
+
+.page {
+    padding: 1rem;
+    margin: auto 1rem;
+    border-radius: 0.5rem;
+    font-size: x-large;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: #fefedf;
+
+}
+
+.page:hover {
+    background-color: #fefedf;
+    color: #00506c;
+}
+
+@media (max-width: 1280px) {
+    .header {
+        padding: 0.5rem;
+        justify-content: space-evenly;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .pages {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .page {
+        font-size: 1rem;
+        padding: 1rem 0.5rem;
+    }
+}

@@ -6,7 +6,7 @@
 .links {
     display: flex;
     justify-content: center;
-    color: #3A8891;
+    color: #00506c;
 }
 
 @media only screen and (max-width: 1200px) {

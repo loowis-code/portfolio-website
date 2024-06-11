@@ -1,19 +1,24 @@
-.aboutme {
-    padding: 1vh 25vw;
+.card {
+    background-color: #f1f1e6;
+    color: #00506c;
+    margin: auto;
+    padding: 2.5rem 5rem;
+    width: 66%;
+    border: 0.5rem solid #00506c;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: large;
 }
 
 .header {
-    font-family: sono-medium;
+    scroll-margin-top: 12rem;
 }
 
-.text {
-    font-family: sono-regular;
-}
-
-@media only screen and (max-width: 1200px) {
-    .aboutme {
-        padding: 0 5%
-        
+@media (max-width: 1280px) {
+    .card {
+        width: 80%;
+        padding: 1rem;
+        font-size: 1rem;
     }
 }
-

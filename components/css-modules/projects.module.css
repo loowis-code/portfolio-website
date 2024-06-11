@@ -1,16 +1,33 @@
-.main {
-    font-family: sono-regular;
+.card {
+    background-color: #f1f1e6;
+    color: #00506c;
+    margin: 2rem auto;
+    padding: 2.5rem 5rem;
+    width: 66%;
+    border: 0.5rem solid #00506c;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
 }
 
 .header {
-    font-family: sono-medium;
+    scroll-margin-top: 12rem;
 }
 
-.card {
-    background-color: #FFEFD6;
+
+.imageWrapper {
+    width: 100%;
+    text-align: center;
 }
 
-.link {
-    color: #0E5E6F;
-    display: block;
+.image {
+    border-radius: 1rem;
+    width: 80%;
+}
+
+@media (max-width: 1280px) {
+    .card {
+        width: 80%;
+        padding: 1rem;
+    }
 }
