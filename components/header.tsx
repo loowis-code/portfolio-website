@@ -23,10 +23,9 @@ export default function Header () {
             </div>
 
             <div className={styles.pages}>
-                <p className={styles.page} tabIndex={0}>about me</p>
-                <p className={styles.page} tabIndex={0}>projects</p>
-                <p className={styles.page} tabIndex={0}>résumé 🔗</p>
-                <p className={styles.page} tabIndex={0}>contact</p>
+                <a className={styles.page} href={'#aboutme'}  tabIndex={0}>about me</a>
+                <a className={styles.page} href={'#projects'}  tabIndex={0}>projects</a>
+                <a className={styles.page} href={'/resume.pdf'} tabIndex={0}>résumé 🔗</a>
             </div>
         </div>
     );

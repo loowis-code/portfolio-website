@@ -11,6 +11,10 @@
     font-size: large;
 }
 
+.header {
+    scroll-margin-top: 12rem;
+}
+
 @media (max-width: 1280px) {
     .card {
         width: 80%;

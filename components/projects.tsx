@@ -5,7 +5,7 @@ export default function Projects () {
     return (
         <div className={styles.card}>
             <div>
-                <h2 tabIndex={0}>Projects</h2>
+                <h2 className={styles.header} tabIndex={0} id={"projects"}>Projects</h2>
                 <div>
                     <div className={styles.imageWrapper}>
                         <img tabIndex={0} className={styles.image} src="/photography_website.png" alt="Screenshot preview of photography website"></img>
