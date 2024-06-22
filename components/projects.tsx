@@ -11,8 +11,10 @@ export default function Projects () {
                         <p className={styles.description} tabIndex={0}>
                             A website used to display my photography, built using Next.js and FaunaDB.
                         </p>
-                        <a tabIndex={0} className={styles.link} href="https://www.lewisinches.pictures">Website Link</a>
-                        <a tabIndex={0} className={styles.link} href="https://github.com/LewisI224/photography-website">Project on Github</a>
+                        <div className={styles.links}>
+                            <a tabIndex={0} className={styles.link} href="https://www.lewisinches.pictures">Website Link</a>
+                            <a tabIndex={0} className={styles.link} href="https://github.com/LewisI224/photography-website">Project on Github</a>
+                        </div>
                     </div>
                     
                     <div className={styles.imageWrapperR}>
@@ -29,8 +31,10 @@ export default function Projects () {
                         <p className={styles.description} tabIndex={0}>
                             A simple starter app to calulate insulin dosages based on current blood sugar readings and estimated carbohydrate content.
                         </p>
-                        <a tabIndex={0} className={styles.link} href="/ez-insulin.sdk">Download SDK 🔗</a>
-                        <a tabIndex={0} className={styles.link} href="https://github.com/LewisI224/EzInsulin">Project on Github</a>
+                        <div className={styles.links}>
+                            <a tabIndex={0} className={styles.link} href="/ez-insulin.sdk">Download SDK 🔗</a>
+                            <a tabIndex={0} className={styles.link} href="https://github.com/LewisI224/EzInsulin">Project on Github</a>
+                        </div>
                     </div>
                     
 
