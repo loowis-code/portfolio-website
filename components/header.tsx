@@ -28,7 +28,7 @@ export default function Header () {
                 <a href='/' className={styles.navTab}>HOME</a>
                 <a href='/about-me' className={styles.navTab}>ABOUT ME</a>
                 <a href='/projects' className={styles.navTab}>PROJECTS</a>
-                <a href='/contact' className={styles.navTab}>CONTACT & SOCIAL</a>
+                <a href='/contact' className={styles.navTab}>CONTACTS</a>
             </div>
         </div>
 
