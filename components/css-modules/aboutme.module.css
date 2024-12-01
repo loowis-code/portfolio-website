@@ -1,24 +1,6 @@
 .card {
-    background-color: #f1f1e6;
-    color: #00506c;
-    margin: auto;
-    padding: 2.5rem 5rem;
-    width: 66%;
-    border: 0.5rem solid #00506c;
-    border-radius: 1rem;
-    display: flex;
-    align-items: center;
-    font-size: large;
-}
-
-.header {
-    scroll-margin-top: 12rem;
-}
-
-@media (max-width: 1280px) {
-    .card {
-        width: 80%;
-        padding: 1rem;
-        font-size: 1rem;
-    }
+    border-bottom: 0.25rem black solid;
+    padding: 1rem;
+    background-color: #A4F3DE;
+    font-size: 1.25rem;
 }
