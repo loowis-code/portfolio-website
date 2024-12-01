@@ -114,24 +114,3 @@ html {
     margin: 0px;
     padding: 0px;
 }
-
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    background-image:  radial-gradient(#00506c 2px, transparent 2px), radial-gradient(#00506c 2px, #f1f1e6 2px);
-    background-size: 80px 80px;
-    background-position: 0 0,40px 40px;
-}
-
-@media (max-width: 1280px) {
-    html {
-        overflow-x: hidden;
-    }
-
-    body {
-        overflow-x: hidden;
-    }
-}
-  
