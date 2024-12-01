@@ -3,30 +3,34 @@ import { useEffect } from 'react';
 
 export default function Header () {
 
-
     useEffect(() => {
-        window.addEventListener('wheel', function() {
-            const header = document.querySelector<HTMLElement>(`.${styles.header}`);
-            if (window.scrollY < 150 && header !== null) {
-                header.style.opacity = '1';
-            } else if (header !== null){
-                header.style.opacity = '0.5';
-            }
+        let name = document.getElementById('name');
+        if (!name) return;
+        let letters = Array.from(name.children) as HTMLElement[];
+        let colors = ['#e81416', '#ffa500', '#faeb36', '#79c314', '#4b369d', '#70369d'];
+        letters.forEach(function (letter, index) {
+            letter.style.backgroundColor = colors[index];
+
         });
     }, []);
 
     return (
         <div className={styles.header}>
-            <div className={styles.info} tabIndex={0}>
-                <h1 className={styles.name}>Lewis Inches</h1>
-                <h3 className={styles.title}>software engineer</h3>
+            <div className={styles.name} id='name'>
+                <div className={styles.letter}>L</div>
+                <div className={styles.letter}>O</div>
+                <div className={styles.letter}>O</div>
+                <div className={styles.letter}>W</div>
+                <div className={styles.letter}>I</div>
+                <div className={styles.letter}>S</div>
             </div>
-
-            <div className={styles.pages}>
-                <a className={styles.page} href={'#aboutme'}  tabIndex={0}>about me</a>
-                <a className={styles.page} href={'#projects'}  tabIndex={0}>projects</a>
-                <a className={styles.page} href={'/resume.pdf'} tabIndex={0}>résumé 🔗</a>
+            <div className={styles.navTabs}>
+                <a href='/' className={styles.navTab}>HOME</a>
+                <a href='/about-me' className={styles.navTab}>ABOUT ME</a>
+                <a href='/projects' className={styles.navTab}>PROJECTS</a>
+                <a href='/contact' className={styles.navTab}>CONTACT & SOCIAL</a>
             </div>
         </div>
+
     );
 }
