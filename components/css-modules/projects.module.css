@@ -1,94 +1,61 @@
 .card {
-    background-color: #f1f1e6;
-    color: #00506c;
-    margin: 2rem auto;
-    padding: 2.5rem 5rem;
-    width: 66%;
-    border: 0.5rem solid #00506c;
-    border-radius: 1rem;
-    display: block;
-    align-items: center;
-}
-
-.header {
-    scroll-margin-top: 12rem;
-}
-
-.body {
-    display: flex;
+    border-bottom: 0.25rem black solid;
     padding: 1rem;
+    background-color: white;
+    font-size: 1.25rem;
 }
 
-.information {
-    width: 50%;
+.project {
+    background-color: #E8FFA8;
+    color: black;
+    padding: 1rem;
+    border: 0.25rem solid black;
+    box-shadow: 0.25rem 0.25rem black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
 }
 
-.description {
-    padding-bottom: 2rem;
+.info {
+    background-color: #F5B6F6;
+    padding: 1rem;
+    border: 0.25rem solid black;
+    box-shadow: 0.25rem 0.25rem black;
 }
 
-.imageWrapperR {
-    text-align: end;
-    position: relative;
+.polaroid {
+    background-color: white;
+    padding: 1rem 1rem 2.5rem;
+    width: fit-content;
+    text-align: left;
+    border: 0.25rem solid black;
+    box-shadow: 0.25rem 0.25rem black;
+    display: block;
+    margin: 0 auto;
 }
-
-.imageWrapperL {
-    width: 50%;
-    position: relative;
-}
-
 .image {
-    border-radius: 1rem;
-    height: 110%;
-    object-fit: cover;
-    position: absolute;
-    width: auto;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .links {
-    width: 100%;
-    display: flex;
+    padding-top: 1rem;
+
 }
 
 .link {
-    color: #00506c;
+    background-color: #ffdb58;
+    width: fit-content;
+    margin: 0 0.5rem 0 0;
+    padding: 0.5rem;
     text-decoration: none;
-    padding: 1rem;
-    margin-right: 1rem;
-    border-radius: 0.5rem;
-    border: 0.25rem solid #00506c;
-    font-size: 1rem;
-    transition-duration: 0.5s;
-    text-decoration: none;
-
+    color: black;
 }
 
 .link:hover {
-    background-color: #00506c;
-    color: #f1f1e6;
-}
-
-@media (max-width: 1280px) {
-    .card {
-        width: 80%;
-        padding: 1rem;
-    }
-
-    .imageWrapperR  {
-        display: none;
-    }
-
-    .imageWrapperL  {
-        display: none;
-    }
-
-    .information {
-        width: 100%;
-    }
-
-    .link {
-        width: 50%;
-        padding: 0.5rem;
-        margin-right: 0.5rem;
-    }
+    background-color: #F5B6F6;
+    color: black;
 }
