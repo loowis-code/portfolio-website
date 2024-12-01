@@ -10,7 +10,7 @@ export default function Introduction () {
                     Hello 👋
                 </h1>
                 <div className={styles.information}>
-                    My name is Lewis Inches. I'm a fullstack software engineer working in Edinburgh.
+                    My name is Lewis Inches. I&apos;m a fullstack software engineer working in Edinburgh.
                 </div>
             </div>
             <div className={styles.picture}>
