@@ -12,6 +12,10 @@ export default function Projects () {
                     <p tabIndex={0}>
                         My photography portfolio website, built using Next.js and FaunaDB. 
                     </p>
+                    <div className={styles.linksBackup}>
+                        <a  className={styles.link} href=''>Website Link</a>
+                        <a  className={styles.link} href=''>Github Link</a>
+                    </div>
                 </div>
                 <div className={styles.polaroid}>
                     <Image src="/photography_website.png" alt="Photography Portfolio" width={400} height={200} className={styles.image} />
@@ -29,6 +33,10 @@ export default function Projects () {
                     <p tabIndex={0}>
                         My photography portfolio website, built using Next.js and FaunaDB. 
                     </p>
+                    <div className={styles.linksBackup}>
+                        <a  className={styles.link} href=''>Website Link</a>
+                        <a  className={styles.link} href=''>Github Link</a>
+                    </div>
                 </div>
                 <div className={styles.polaroid}>
                     <Image src="/ez-insulin.png" alt="Photography Portfolio" width={108} height={240} className={styles.image}/>

@@ -25,10 +25,9 @@ export default function Header () {
                 <div className={styles.letter}>S</div>
             </div>
             <div className={styles.navTabs}>
-                <a href='/' className={styles.navTab}>HOME</a>
-                <a href='/about-me' className={styles.navTab}>ABOUT ME</a>
-                <a href='/projects' className={styles.navTab}>PROJECTS</a>
-                <a href='/contact' className={styles.navTab}>CONTACTS</a>
+                <a href='' className={styles.navTab}>HOME</a>
+                <a href='#about-me' className={styles.navTab}>ABOUT ME</a>
+                <a href='#projects' className={styles.navTab}>PROJECTS</a>
             </div>
         </div>
 

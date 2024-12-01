@@ -1,6 +1,14 @@
 .card {
-    border-bottom: 0.25rem black solid;
+    border: 0.25rem black solid;
     padding: 1rem;
     background-color: #A4F3DE;
     font-size: 1.25rem;
+    width: 75%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1280px) {
+    .card {
+        width: 100%;
+    }
 }

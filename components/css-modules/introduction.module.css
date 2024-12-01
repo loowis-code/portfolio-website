@@ -1,7 +1,10 @@
 .introduction {
     display: flex;
     width: 100%;
-    border-bottom: 0.25rem solid black;
+    border-left: 0.25rem solid black;
+    border-right: 0.25rem solid black;
+    width: 75%;
+    margin: 0 auto;
 }
 
 .text {
@@ -40,4 +43,20 @@
     width: fit-content;
     margin-top: 0.5rem;
     padding: 0.5rem;
+}
+
+@media (max-width: 1280px) {
+    .introduction {
+        width: 100%;
+        outline: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .text {
+        width: 100%;
+    }
+    .picture {
+        display: none;
+    }
 }
