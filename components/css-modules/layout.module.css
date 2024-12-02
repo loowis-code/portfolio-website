@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+@media (width <= 900px) {
     .main {
         text-align: center;
     }
