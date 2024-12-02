@@ -15,7 +15,7 @@ export default function Introduction () {
             </div>
             <div className={styles.picture}>
                 <div className={styles.polaroid}>
-                    <Image src='/picture_of_me.jpg' alt='A picture of Lewis Inches' width={300} height={300} />
+                    <Image src='/picture.jpg' alt='A picture of Lewis Inches' width={300} height={300} />
                     <div className={styles.name}>Lewis Inches</div>
                 </div>
 

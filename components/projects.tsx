@@ -20,8 +20,8 @@ export default function Projects () {
                 <div className={styles.polaroid}>
                     <Image src="/photography_website.png" alt="Photography Portfolio" width={400} height={200} className={styles.image} />
                     <div className={styles.links}>
-                        <a  className={styles.link} href=''>Website Link</a>
-                        <a  className={styles.link} href=''>Github Link</a>
+                        <a  className={styles.link} href='https://pictures.loowis.co.uk'>Website Link</a>
+                        <a  className={styles.link} href='https://github.com/LewisI224/photography-website'>Github Link</a>
                     </div>
 
                 </div>
@@ -39,10 +39,9 @@ export default function Projects () {
                     </div>
                 </div>
                 <div className={styles.polaroid}>
-                    <Image src="/ez-insulin.png" alt="Photography Portfolio" width={108} height={240} className={styles.image}/>
+                    <Image src="/ez-insulin.png" alt="ezInsulin screenshot" width={108} height={240} className={styles.image}/>
                     <div className={styles.links}>
-                        <a  className={styles.link} href=''>Website Link</a>
-                        <a  className={styles.link} href=''>Github Link</a>
+                        <a  className={styles.link} href='https://github.com/LewisI224/EzInsulin'>Github Link</a>
                     </div>
 
                 </div>
