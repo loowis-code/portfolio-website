@@ -5,18 +5,17 @@
     border-right: 0.25rem solid black;
     width: 75%;
     margin: 0 auto;
+
 }
 
 .text {
     width: 50%;
-    justify-content: center;
     align-items: center;
-    text-align: center;
     background-color: #E8FFA8;
     color: black;
     padding: 1rem;
-    border-right: 0.25rem solid black;
     font-size: 1.5rem;
+    border-right: 0.25rem solid black;
 }
 
 .picture {
@@ -55,6 +54,7 @@
 @media (max-width: 700px) {
     .text {
         width: 100%;
+        border-right: none;
     }
     .picture {
         display: none;

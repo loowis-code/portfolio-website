@@ -7,14 +7,13 @@
     font-size: 1.25rem;
     width: 75%;
     margin: 0 auto;
+    background-color: #E8FFA8;
 }
 
 .project {
     background-color: #E8FFA8;
     color: black;
     padding: 1rem;
-    border: 0.25rem solid black;
-    box-shadow: 0.25rem 0.25rem black;
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
@@ -23,9 +22,7 @@
 .info {
     background-color: #F5B6F6;
     padding: 1rem;
-    border-top: 0.25rem solid black;
-    border-left: 0.25rem solid black;
-    border-bottom: 0.25rem solid black;
+    border: 0.25rem solid black;
     box-shadow: 0.25rem 0.25rem black;
 }
 
@@ -61,7 +58,7 @@
 }
 
 .link:hover {
-    background-color: #F5B6F6;
+    background-color: #A4F3DE;
     color: black;
 }
 
@@ -83,5 +80,11 @@
 
     .linksBackup {
         display: block;
+        padding-top: 0;
+    }
+
+    .link {
+        display: block;
+        margin: 0.25rem auto ;
     }
 }
