@@ -7,7 +7,7 @@ export default function Header () {
         let name = document.getElementById('name');
         if (!name) return;
         let letters = Array.from(name.children) as HTMLElement[];
-        let colors = ['#e81416', '#ffa500', '#faeb36', '#79c314', '#4b369d', '#70369d'];
+        let colors = ['#d95d5d', '#db8525', '#e8c43c', '#bed649', '#9ecbdb', '#c771a1'];
         letters.forEach(function (letter, index) {
             letter.style.backgroundColor = colors[index];
 

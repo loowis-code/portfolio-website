@@ -12,8 +12,7 @@
 
 .name {
     display: flex;
-
-    /* max-width: 25%; */
+    cursor: default;
 }
 
 .letter {
@@ -25,7 +24,7 @@
     align-items: center;
     display: flex;
     color: whitesmoke;
-    background-color: #e81416;
+    background-color: #d95d5d;
     border: black 0.25rem solid;
     font-weight: bold;
     font-size: 1.25rem;
@@ -75,10 +74,6 @@
     .header {
         width: 100%;
     }
-
-    .letter:hover {
-        animation: none;
-    }
 }
 
 @media (width <= 900px) {
@@ -118,5 +113,9 @@
         font-size: 1.5rem;
         box-shadow: none;
         text-shadow: 0.1rem 0.1rem #000;  
+    }
+    
+    .letter:hover {
+        animation: none;
     }
 }

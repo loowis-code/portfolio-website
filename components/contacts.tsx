@@ -1,5 +1,4 @@
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Link from '@mui/material/Link';
 import Grid from '@mui/material/Unstable_Grid2';
@@ -15,9 +14,6 @@ export default function Contacts () {
                 </Grid>
                 <Grid>
                     <Link className={styles.link2} href="https://github.com/LewisI224" underline="none" color="inherit"><GitHubIcon /></Link>
-                </Grid>
-                <Grid>
-                    <Link className={styles.link3} href="" underline="none" color="inherit"><InstagramIcon /></Link>
                 </Grid>
             </Grid>
             
