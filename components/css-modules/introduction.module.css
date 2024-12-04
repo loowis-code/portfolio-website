@@ -1,66 +1,62 @@
-.jumbotron {
-    background-color: #00506c;
-    color: #fefedf;
-    margin: 3rem auto 2rem auto;
-    padding: 2.5rem 5rem;
-    width: 66%;
-    border-radius: 1rem;
+.introduction {
     display: flex;
-    justify-content: space-between;
+    border-left: 0.25rem solid black;
+    border-right: 0.25rem solid black;
+    width: 75%;
+    margin: 0 auto;
     align-items: center;
+    background-color: #E8FFA8;
+
 }
 
-.image {
-    border-radius: 25%;
-    margin-left: 5%;
+.text {
+    width: 50%;
+    color: black;
+    padding: 1rem;
+    font-size: 1.5rem;
 }
 
-@media (max-width: 1280px) {
-    .jumbotron {
-        width: 80%;
-        padding: 1rem;
-        margin: 1rem auto;
-    }
+.picture {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #F5B6F6;
+    padding: 1rem;
+    border-left: 0.25rem solid black;
+}
 
-    .text  {
-        margin: auto;
-    }
+.polaroid {
+    background-color: white;
+    padding: 2rem 1rem 2.5rem;
+    width: fit-content;
+    text-align: left;
+    border: 0.25rem solid black;
+    box-shadow: 0.25rem 0.25rem black;
+}
 
-    .jumbotron div h1 {
-        font-size: 3rem;
-    }
+.name {
+    background-color: #ffdb58;
+    width: fit-content;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
 
-    .jumbotron div h2 {
-        font-size: 1.5rem;
-    }
-
-    .image {
-        width: 33%;
-        height: auto;
+@media (width <= 1280px) {
+    .introduction {
+        width: 100%;
+        outline: none;
     }
 }
 
-@media (max-width: 810px) {
-    .jumbotron {
-        width: 80%;
-        padding: 1rem;
-        margin: 1rem auto;
+@media (width <= 700px) {
+    .text {
+        width: 100%;
+        border-right: none;
     }
 
-    .text  {
-        margin: 0 auto;
-    }
-
-    .jumbotron div h1 {
-        font-size: 1.5rem;
-    }
-
-    .jumbotron div h2 {
-        font-size: 1rem;
-    }
-
-    .image {
-        width: 33%;
-        height: auto;
+    .picture {
+        display: none;
     }
 }

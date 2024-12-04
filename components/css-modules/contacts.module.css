@@ -1,17 +1,24 @@
 .main {
-    padding: 1vh 25vw;
+    padding: 1rem;
     text-align: center;
+    border: black 0.25rem solid;
+    border-top: none;
 }
 
 .links {
     display: flex;
     justify-content: center;
-    color: #00506c;
 }
 
-@media only screen and (max-width: 1200px) {
-    .main {
-        padding: 0 5%
-        
-    }
+.link1 {
+    color: #d95d5d;
+
+}
+
+.link2 {
+    color: #db8525;
+}
+
+.link3 {
+    color: #e8c43c;
 }
