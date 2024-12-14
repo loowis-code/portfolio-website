@@ -1,7 +1,7 @@
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Link from '@mui/material/Link';
-import Grid from '@mui/material/Unstable_Grid2';
+import Grid from '@mui/material/Grid2';
 import styles from '@/components/css-modules/contacts.module.css';
 
 export default function Contacts () {
