@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@types/bootstrap": "^5.2.10",
-    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-prettier": "^10.0.1",
     "stylelint": "^16.14.1",
     "stylelint-config-standard": "^37.0.0"
   }
