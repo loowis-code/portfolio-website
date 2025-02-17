@@ -31,7 +31,7 @@ export default function Projects () {
                 <div className={styles.info}>
                     <h3 tabIndex={0}>Insulin Calculator</h3>
                     <p tabIndex={0}>
-                        My photography portfolio website, built using Next.js and FaunaDB. 
+                        An app for Type 1 Diabetics to calculate how much insulin they need to take based on ingested carbs and current blood sugar. 
                     </p>
                     <div className={styles.linksBackup}>
                         <a  className={styles.link} href=''>Website Link</a>
