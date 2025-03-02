@@ -20,6 +20,7 @@
     "bootstrap": "^5.3.3",
     "eslint": "9.21.0",
     "eslint-config-next": "15.1.6",
+    "loowis-component-library": "^4.0.1",
     "next": "15.1.6",
     "react": "19.0.0",
     "react-dom": "19.0.0",
