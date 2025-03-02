@@ -10,12 +10,8 @@
 }
 
 .project {
-    background-color: #E8FFA8;
-    color: black;
     padding: 1rem;
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 1rem;
 }
 
 .info {
@@ -23,6 +19,7 @@
     padding: 1rem;
     border: 0.25rem solid black;
     box-shadow: 0.25rem 0.25rem black;
+    max-width: 40%;
 }
 
 .polaroid {

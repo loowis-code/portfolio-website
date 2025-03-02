@@ -3,6 +3,8 @@
     text-align: center;
     border: black 0.25rem solid;
     border-top: none;
+    width: 75%;
+    margin: 0 auto;
 }
 
 .links {
@@ -21,4 +23,10 @@
 
 .link3 {
     color: #e8c43c;
+}
+
+@media (width <= 1280px) {
+    .main {
+        width: 100%;
+    }
 }
