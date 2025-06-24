@@ -18,7 +18,7 @@
     "@types/react": "19.0.8",
     "@types/react-dom": "19.0.3",
     "bootstrap": "^5.3.3",
-    "eslint": "9.21.0",
+    "eslint": "9.29.0",
     "eslint-config-next": "15.2.0",
     "loowis-component-library": "^4.2.1",
     "next": "15.2.4",
