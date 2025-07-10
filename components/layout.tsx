@@ -9,11 +9,12 @@ export default function Layout({ children }: LayoutProps) {
         <div className={styles.main}>
 
             <Head>
-            <title>Lewis Inches - Portfolio</title>
-            <meta name="description" content="Hi, My name is Lewis Inches and I'm a software engineer from Edinburgh. I currently work as a fullstack web developer at Skyscanner in Edinburgh." />
+                <title>Lewis Inches - Portfolio</title>
+                <meta name="description" content="Hi, My name is Lewis Inches and I'm a software engineer from Edinburgh. I currently work as a fullstack web developer at Skyscanner in Edinburgh." />
+                <link rel="icon" href="/favicon.png" sizes="any" />
             </Head>
 
-            <Header navTabs={['HOME', 'ABOUT ME', 'PROJECTS']} navLinks={['', '#aboutme', '#projects']}/>
+            <Header navTabs={['HOME', 'ABOUT ME', 'PROJECTS']} navLinks={['/', '#aboutme', '#projects']} />
 
             {children}
 

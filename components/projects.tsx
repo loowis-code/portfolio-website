@@ -1,52 +1,48 @@
 import styles from '@/components/css-modules/projects.module.css';
-import Image from 'next/image';
+import { Polaroid } from 'loowis-component-library';
 
 export default function Projects () {
 
     return (
         <div className={styles.card}>
             <h2 className={styles.header} tabIndex={0} id={"projects"}>Projects</h2>
-            <div className={styles.project}>
-                <div className={styles.info}>
-                    <h3 tabIndex={0}>Photography Portfolio</h3>
-                    <p tabIndex={0}>
-                        My photography portfolio website, built using Next.js and FaunaDB. 
-                    </p>
-                    <div className={styles.linksBackup}>
-                        <a  className={styles.link} href=''>Website Link</a>
-                        <a  className={styles.link} href=''>Github Link</a>
-                    </div>
+            <div className={styles.projects}>
+                <div className={styles.project}>
+                    <Polaroid 
+                        filename='/photography_website.png'
+                        alt='Photography Website screenshot'
+                        title='Photography Portfolio'
+                        caption=' My photography portfolio website, built using Next.js and FaunaDB.'
+                        links=
+                        {
+                            [{
+                                href: 'https://pictures.loowis.co.uk',
+                                text: 'Website Link'
+                            },
+                            {
+                                href: 'https://github.com/loowis-code/photography-website',
+                                text: 'Github Link',
+                            }]
+                        }
+                    />
                 </div>
-                <div className={styles.polaroid}>
-                    <Image src="/photography_website.png" alt="Photography Portfolio" width={400} height={200} className={styles.image} />
-                    <div className={styles.links}>
-                        <a  className={styles.link} href='https://pictures.loowis.co.uk'>Website Link</a>
-                        <a  className={styles.link} href='https://github.com/LewisI224/photography-website'>Github Link</a>
-                    </div>
 
-                </div>
-            </div>
-
-            <div className={styles.project}>
-                <div className={styles.info}>
-                    <h3 tabIndex={0}>Insulin Calculator</h3>
-                    <p tabIndex={0}>
-                        An app for Type 1 diabetics to calculate how much insulin they need to take based on ingested carbs and current blood sugar. 
-                    </p>
-                    <div className={styles.linksBackup}>
-                        <a  className={styles.link} href=''>Website Link</a>
-                        <a  className={styles.link} href=''>Github Link</a>
-                    </div>
-                </div>
-                <div className={styles.polaroid}>
-                    <Image src="/ez-insulin.png" alt="ezInsulin screenshot" width={108} height={240} className={styles.image}/>
-                    <div className={styles.links}>
-                        <a  className={styles.link} href='https://github.com/LewisI224/EzInsulin'>Github Link</a>
-                    </div>
-
+                <div className={styles.project}>
+                    <Polaroid 
+                        filename='/ez-insulin.png'
+                        alt='ezInsulin screenshot'
+                        title='Insulin Calculator'
+                        caption='An app for Type 1 diabetics to calculate how much insulin they need to take based on ingested carbs and current blood sugar.'
+                        links=
+                        {
+                            [{
+                                href: 'https://github.com/loowis-code/photography-website',
+                                text: 'Github Link',
+                            }]
+                        }
+                    />
                 </div>
             </div>
-
         </div>
     );
 }

@@ -6,7 +6,6 @@
     margin: 0 auto;
     align-items: center;
     background-color: #E8FFA8;
-
 }
 
 .text {
@@ -18,35 +17,21 @@
 
 .picture {
     width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #F5B6F6;
-    padding: 1rem;
+    padding: 1rem 10rem;
     border-left: 0.25rem solid black;
-}
-
-.polaroid {
-    background-color: white;
-    padding: 2rem 1rem 2.5rem;
-    width: fit-content;
-    text-align: left;
-    border: 0.25rem solid black;
-    box-shadow: 0.25rem 0.25rem black;
-}
-
-.name {
-    background-color: #ffdb58;
-    width: fit-content;
-    margin-top: 0.5rem;
-    padding: 0.5rem;
+    height: auto;
 }
 
 @media (width <= 1280px) {
     .introduction {
         width: 100%;
         outline: none;
+    }
+
+    .picture {
+        width: 100%;
+        padding: 1rem;
+        height: auto;
     }
 }
 

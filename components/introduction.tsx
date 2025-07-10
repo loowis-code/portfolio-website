@@ -1,5 +1,5 @@
 import styles from '@/components/css-modules/introduction.module.css';
-import Image from 'next/image';
+import { Polaroid } from 'loowis-component-library'
 
 export default function Introduction () {
 
@@ -9,17 +9,13 @@ export default function Introduction () {
                 <h1 className={styles.title}>
                     Hello 👋
                 </h1>
-                <div className={styles.information}>
-                    My name is Lewis Inches. I&apos;m a fullstack software engineer working in Edinburgh.
-                </div>
+                <p className={styles.information}>
+                    I&apos;m Lewis — a fullstack software engineer with a focus on web development.<br /> This site is a place to share some of the projects I&apos;ve worked on in my own time. <br /><br />
+                    This site is a place to share some of the projects I&apos;ve worked on in my own time. If you're interested in anything here or want to connect, feel free to reach out via my contact links in the footer.
+                </p>
             </div>
             <div className={styles.picture}>
-                <div className={styles.polaroid}>
-                    <Image src='/picture.jpg' alt='A picture of Lewis Inches' width={300} height={300} />
-                    <div className={styles.name}>Lewis Inches</div>
-                </div>
-
-
+                <Polaroid filename='/picture.jpg' title='Me (in Prague ✈️)' alt='A picture of Lewis Inches'/>
             </div>
 
         </div>
