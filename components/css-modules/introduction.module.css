@@ -4,8 +4,8 @@
     border-right: 0.25rem solid black;
     width: 75%;
     margin: 0 auto;
-    align-items: center;
     background-color: #E8FFA8;
+    align-items: stretch;
 }
 
 .text {
@@ -13,25 +13,30 @@
     color: black;
     padding: 1rem;
     font-size: 1.5rem;
+    margin: auto;
+}
+
+.pictureContainer {
+    border-left: 0.25rem solid black;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    padding: 1rem;
 }
 
 .picture {
-    width: 50%;
-    padding: 1rem 10rem;
-    border-left: 0.25rem solid black;
-    height: auto;
+        width: 70%;
+        height: auto;
 }
 
-@media (width <= 1280px) {
+@media (width <= 1500px) {
     .introduction {
         width: 100%;
-        outline: none;
+        height: fit-content;
     }
 
     .picture {
         width: 100%;
-        padding: 1rem;
-        height: auto;
     }
 }
 
@@ -39,6 +44,10 @@
     .text {
         width: 100%;
         border-right: none;
+    }
+
+    .pictureContainer {
+        display: none;
     }
 
     .picture {

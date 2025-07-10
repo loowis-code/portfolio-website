@@ -10,14 +10,15 @@ export default function Introduction () {
                     Hello 👋
                 </h1>
                 <p className={styles.information}>
-                    I&apos;m Lewis — a fullstack software engineer with a focus on web development.<br /> This site is a place to share some of the projects I&apos;ve worked on in my own time. <br /><br />
+                    I&apos;m Lewis — a fullstack software engineer with a focus on web development.<br /><br />
                     This site is a place to share some of the projects I&apos;ve worked on in my own time. If you're interested in anything here or want to connect, feel free to reach out via my contact links in the footer.
                 </p>
             </div>
-            <div className={styles.picture}>
-                <Polaroid filename='/picture.jpg' title='Me (in Prague ✈️)' alt='A picture of Lewis Inches'/>
+            <div className={styles.pictureContainer}>
+                <div className={styles.picture}>
+                    <Polaroid filename='/picture.jpg' title='Me (in Prague ✈️)' alt='A picture of Lewis Inches'/>
+                </div>
             </div>
-
         </div>
     );
 }
