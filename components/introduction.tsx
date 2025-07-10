@@ -11,7 +11,7 @@ export default function Introduction () {
                 </h1>
                 <p className={styles.information}>
                     I&apos;m Lewis — a fullstack software engineer with a focus on web development.<br /><br />
-                    This site is a place to share some of the projects I&apos;ve worked on in my own time. If you're interested in anything here or want to connect, feel free to reach out via my contact links in the footer.
+                    This site is a place to share some of the projects I&apos;ve worked on in my own time. If you&apos;re interested in anything here or want to connect, feel free to reach out via my contact links in the footer.
                 </p>
             </div>
             <div className={styles.pictureContainer}>
